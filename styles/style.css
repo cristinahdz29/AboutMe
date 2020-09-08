@@ -1,27 +1,28 @@
 html {
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
-    background-color: #e5ddea;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  background-color: #e5ddea;
 }
 
 h1 {
   font-size: 50px;
   text-align: center;
   margin: 0;
-  padding: 20px 0;    
+  padding: 20px 0;
   color: #8b7289;
   text-shadow: 3px 3px 1px #595932;
 }
 
-p, li {
-  font-size: 16px;    
+p,
+li {
+  font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
 }
 
 img {
-    margin: 0 auto;
-    display: block;
+  margin: 0 auto;
+  display: block;
 }
 
 body {
@@ -30,4 +31,24 @@ body {
   background-color: #fffbf7;
   padding: 0 20px 20px 20px;
   border: 5px solid #8b7289;
+}
+
+button {
+  display: block;
+  margin: 30px auto;
+  color: #906c85;
+  background: white;
+  border-radius: 30px;
+  padding: 10px 15px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: all 200ms ease-in-out;
+  border-color: #906c85;
+  outline: none;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+  color: white;
+  background: #906c85;
 }
